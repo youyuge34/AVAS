@@ -111,7 +111,7 @@ venv.bak/
 *.pth
 *.pt
 *.ckpt
-*.png
-*.jpg
+#*.png
+#*.jpg
 *.mp3
 *.zip
