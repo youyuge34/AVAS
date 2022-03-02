@@ -5,9 +5,20 @@ Including datasets，pretrained model with weights and AVAS model.
 
 ### 2. MKG based pre-trained model
 
-#### 2.1 Dataset
+#### 2.1 Dataset and weights
 `src/pretrain_model_test_dataset.csv` includes 1k images of 100 hot POI which is described in the paper.
 You should download the image using the url by yourself.
+
+
+Download the weights file from `https://github.com/youyuge34/AVAS/releases/tag/v0.1`.
+and then cut it to the dir weights.
+
+Now the dir is:
+```
+--AVAS
+    --weights
+        --commodity_poi_mml_20211221_with_MKG_withMKG_iteration_200000_0.4215_0.407_0.018.pth
+```
 
 #### 2.2 Quick Start
 ```commandline
